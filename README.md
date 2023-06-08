@@ -1,16 +1,12 @@
-# Born2BeRoot
+# My notes
 
-Born2BeRoot cmds
-
-rocky debian?
-
- VM
+VM
 software instead of hardware
-can be used to test, can have several
+can be used to test
 
 APT is lower level
 package manager
-aptitude better. smarter
+aptitude better, smarter
 
 apparmor
 security system MAC
@@ -36,7 +32,7 @@ sudo crontab -u root -e
 cd usr/local/bin
 sudo service cron stop
 
-
+cmds
 ssh pdelanno@ip -p 4242
 sudo ufw status
 sudo systemctl status ssh
@@ -58,4 +54,3 @@ sudo ufw status numbered
 sudo ufw allow 808
 sudo ufw delete rule number
 sudo systemctl status ssh
-
